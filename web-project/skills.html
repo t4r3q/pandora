@@ -8,131 +8,9 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="stylesheet" href="stylesheet.css">
     </head>
-      <style>
-          body {
-              background-image: url(geometric-1732847_1280.jpg)
-          }
-          ul {
-              color: lightskyblue;
-              font-size: 30px;
-              font-family:monospace;
-              list-style-type: none;
-              margin-left: 23%;
-              padding-top: 20px;
-              
-              
-               }
-          li {
-              float: left;
-              padding-left: 40px;
-             
-              
-          }
-          header {
-             height: 75px;
-             
-          }
-          main {
-              height: 400px;
-          }
-         a {
-              text-decoration: none;
-              color: lightskyblue;
-          }
-          li:hover {text-decoration: underline;  }
-          
-         #box {
-              background-color: #87cefa3d;
-              color: lightskyblue ;
-              width: 500px;
-              height: 300px;
-              position: absolute;
-              left: 30%;
-              top: 20%;
-              padding: 30px 20px;
-              border:3px solid #87cefa;
-              overflow:auto;
-              font-family:monospace;
-             font-size: 20px;
-             text-align: center;
-          }
-          .id {
-              position: absolute;
-              left: 10%;
-              top: 30%;
-              border: 3px solid #87cefa;
-          }
-          footer {
-             
-              height: 30px;
-          }
-          hr {
-               
-               border: 0;
-               height: 2px;
-               background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #87cefa, #87cefa);
-          }
-          
-              
-          }
-            h3:hover {text-decoration: underline;  }
-         
-          
-          h3,h2   {
-              float:right;
-              color: lightskyblue;
-              padding-right: 30px;
-             font-family:monospace;
-              font-size: 20px;
-               padding-right: 250px;
-          }
-         
-         #sm {
-              font-size: 40px;
-              float: left;
-              padding-left: 40px;
-             
-          }
-          
-          .pic1 {
-              position: absolute;
-              left: 80px;
-              top: 125px;
-              width: 225px;
-              border: 3px solid #87cefa;
-          }
-          .pic2 {
-              position: absolute;
-              left: 80px;
-              top: 310px;
-              width: 225px;
-              border: 3px solid #87cefa;
-          }
-          .pic3 {
-              position: absolute;
-              right: 20px;
-              top: 350px;
-              width: 170px;
-              border: 3px solid #87cefa;
-          }
-          .pic4 {
-              position: absolute;
-              right: 20px;
-              top: 130px;
-              width: 170px;
-              border: 3px solid #87cefa;
-          }
-          .pic5 {
-              position: absolute;
-              right: 200px;
-              top: 130px;
-              width: 175px;
-              border: 3px solid #87cefa;
-          }
-         
-      </style>
-    
+      
     <body>
         <header>
           <nav>
@@ -145,15 +23,22 @@
           </nav>
         </header>
         <main>
-           <div id="left"> 
-               <img class="pic1" src="arch.jpg"> 
-               <img class="pic2" src="drawing.jpg"> 
+          
+           <div id="window"> 
+               <img class="pic1" alt="architecture" src="arch.jpg"> 
+               <img class="pic2" alt="drawing" src="drawing.jpg"> 
            </div>
-            <div id="right">
-               <img class="pic3" src="tattoo.jpg"> 
-               <img class="pic4" src="IMG_20190224_120933.jpg"> 
-               <img class="pic5" src="IMG_20190224_115516.jpg"> 
-            </div>
+            <aside id="collage">
+                <div id="r1"> 
+                    <img class="pic3" alt="photography" src="IMG_20190224_120933.jpg"> 
+                    <img class="pic4" alt="tattooing" src="tattoo.jpg"> 
+                </div>
+                <div id="r2">
+                    <img class="pic5" alt="tattooing2" src="IMG_20190224_115516.jpg">
+                </div> 
+            </aside>
+           
+            <div class="parent">
              <div id="box"> 
                 <h1>Alles neu</h1>
                 <h5>Peter Fox</h5>
@@ -198,7 +83,8 @@ Die Welt mit Staub bedeckt, doch ich will sehn wo's hingeht
 Steig auf den Berg aus Dreck, weil oben frischer Wind weht
                     Hey, alles glänzt, so schön neu</p>
            
-             </div> 
+             </div>
+            </div>
         </main>
         <footer>
             <hr>
