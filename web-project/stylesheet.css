@@ -32,8 +32,24 @@ body { background-image: url(geometric-1732847_1280.jpg)}
               overflow: auto;
               font-family:monospace;
               font-size: 20px;
-              text-align: center;
           }
+
+#box a {
+    color: rgb(0,100,150);
+}
+
+#box a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+        .my-contact #box {
+            text-align: center;
+        }
+
+
+
           .id-pic {
               width: 200px;
               border: 3px solid #87cefa;
@@ -84,7 +100,9 @@ body { background-image: url(geometric-1732847_1280.jpg)}
              background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #87cefa, rgba(0, 0, 0, 0));
           }
          
-              
+h1 {
+    text-align: center;
+}    
 
           .pic1, .pic2 {
               
@@ -157,9 +175,11 @@ body { background-image: url(geometric-1732847_1280.jpg)}
     
     .parent {
         padding-top: 50px;
-        padding-left: 0px;
+        padding-left: 5%;
     }
-    #box { width: 100%; }
+    #box { 
+        width: 90%; 
+    }
    
     #window {
         width: 100%;
