@@ -1,0 +1,210 @@
+body { background-image: url(../img/geometric-1732847_1280.jpg)}
+.b1  {  background-image: url(../img/back14.jpg) }
+    
+          ul {
+              color: lightskyblue;
+              font-size: 30px;
+              font-family:monospace;
+              list-style-type: none;
+              margin-left: 23%;
+              padding-top: 20px;
+         }
+          li {
+              float: left;
+              padding-left: 40px;    
+          }
+          header { height: 75px; }
+          
+         a {
+              text-decoration: none;
+              color: lightskyblue;
+          }
+          li:hover {text-decoration: underline;  }
+
+         #box {
+              float: left;
+              background-color: #87cefa3d;
+              color: lightskyblue ;
+              width: 40%;
+              height: 300px;
+              padding: 30px 20px;
+              border:3px solid #87cefa;
+              overflow: auto;
+              font-family:monospace;
+              font-size: 20px;
+          }
+
+#box a {
+    color:#CDDC39;
+}
+
+#box a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+        .my-contact #box {
+            text-align: center;
+        }
+
+
+
+          .id-pic {
+              width: 200px;
+              border: 3px solid #87cefa;
+          }
+          footer {
+              padding-top: 30px;
+              clear: both;
+              
+          }
+          hr {
+               
+               border: 0;
+               height: 2px;
+               background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #87cefa, #87cefa);
+          }
+           
+          h3:hover {text-decoration: underline;  }
+          h4 {
+              font-size: 30px;
+          }
+          
+          h3,h2   {
+              float:right;
+              color: lightskyblue;
+              padding-right: 30px;
+             font-family:monospace;
+              font-size: 20px;
+               padding-right: 250px;
+          }
+         
+         #sm {
+              font-size: 40px;
+              float: left;
+              padding-left: 40px;
+             
+          }
+         .home {
+              text-align: center;
+              color: lightskyblue;
+              font-size: 30px;
+              font-family:  'Orbitron', sans-serif;
+              height: 300px;
+              padding-top: 100px;
+          }
+          
+         .home h1 {
+             color:  #2838749e;
+             background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #87cefa, rgba(0, 0, 0, 0));
+          }
+         
+h1 {
+    text-align: center;
+}    
+
+          .pic1, .pic2 {
+              
+              width: 225px;
+              border: 3px solid #87cefa;
+          }
+          
+          .pic3 {
+              
+              width: 170px;
+              border: 3px solid #87cefa;
+          }
+          .pic4 {
+              height: 90px;
+              width: 170px;
+              border: 3px solid #87cefa;
+          }
+          .pic5 {
+             
+              width: 175px;
+              border: 3px solid #87cefa;
+          }
+          .pic6 {
+              border: 5px dashed #87cefa;
+              width: 160px;    
+          }
+          .logo1 { width: 100px; }
+          .logo2, .logo3, .logo4 { width: 150px }
+         
+           #window {
+              color: lightskyblue;
+              font-family:monospace;
+              font-size: 20px;
+              margin-top: 20px;
+              text-align: center;
+              width: 26%;
+               float: left;
+          }
+           #collage {
+               padding-right: 20px;
+                float: right;
+                width: 360px;
+                height: 300px;
+         }
+           #r1 {
+               float: left;
+               width: 177px;
+         }
+           #r2 { float: right; }
+
+           #right {
+              float: right;
+              color: lightskyblue;
+              font-family:monospace;
+              font-size: 20px;
+              text-align: center;
+              width: 26%;
+             padding-right: 4%;
+          }
+           
+            .map {
+              width: 200px;
+              border: 3px solid #87cefa;
+          }
+
+/* Responsive */
+@media (max-width: 1350px) { #window { width: 23%; } }
+
+@media (max-width: 1200px) {
+    
+    .parent {
+        padding-top: 50px;
+        padding-left: 5%;
+    }
+    #box { 
+        width: 90%; 
+    }
+   
+    #window {
+        width: 100%;
+        float: none;
+         
+    } 
+   .map, .id-pic {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+    }
+     #right {
+        display: none;
+    }
+      #r1,#r2 {
+        width: 50%;
+       
+    }
+    #collage {
+       float: none;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+    }
+   
+    
+   
+}
