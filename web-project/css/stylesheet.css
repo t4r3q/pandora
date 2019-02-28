@@ -1,13 +1,14 @@
-body { background-image: url(../img/geometric-1732847_1280.jpg)}
-.b1  {  background-image: url(../img/back14.jpg) }
-    
+          body { background-image: url(../img/geometric-1732847_1280.jpg)}
+          .b1  {  background-image: url(../img/back14.jpg) }
+
+
           ul {
               color: lightskyblue;
               font-size: 30px;
               font-family:monospace;
               list-style-type: none;
               margin-left: 23%;
-              padding-top: 20px;
+              padding-top: 10px;
          }
           li {
               float: left;
@@ -34,19 +35,17 @@ body { background-image: url(../img/geometric-1732847_1280.jpg)}
               font-size: 20px;
           }
 
-#box a {
-    color:#CDDC39;
-}
+         #box a { color:#CDDC39; }
 
-#box a:hover {
-    color: #fff;
-    text-decoration: underline;
-}
+         #box a:hover {
+             color: #fff;
+             text-decoration: underline;
+          }
 
 
         .my-contact #box {
             text-align: center;
-        }
+          }
 
 
 
@@ -100,9 +99,7 @@ body { background-image: url(../img/geometric-1732847_1280.jpg)}
              background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #87cefa, rgba(0, 0, 0, 0));
           }
          
-h1 {
-    text-align: center;
-}    
+           h1 { text-align: center; }    
 
           .pic1, .pic2 {
               
